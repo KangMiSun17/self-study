@@ -1,5 +1,6 @@
 //string 타입 지정
 let 이름: string = "MM"; // 이름 = 123 -> 오류 발생
+
 //array 타입 지정
 let 과목: string[] = ["TypeScript", "JavaScript", "React"];
 
@@ -36,3 +37,9 @@ class User {
     this.name = name;
   }
 }
+
+function Basic() {
+  return <div>아무것도 아닙니다.</div>;
+}
+
+export default Basic;
