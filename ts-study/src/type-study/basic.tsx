@@ -38,8 +38,4 @@ class User {
   }
 }
 
-function Basic() {
-  return <div>아무것도 아닙니다.</div>;
-}
-
-export default Basic;
+export {};
