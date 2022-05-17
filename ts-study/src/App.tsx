@@ -1,4 +1,4 @@
-import React from "react";
+import { SampleProvider } from "./basic-study/ContextSample";
 import Counter from "./basic-study/Counter";
 import Greetings from "./basic-study/Greetings";
 import MyForm from "./basic-study/MyForm";
@@ -13,12 +13,12 @@ function App() {
     console.log(form);
   };
   return (
-    <div className="App">
+    <SampleProvider>
       <Greetings name="MM" onClick={onClick} />
       <Counter />
       <MyForm onSubmit={onSubmit} />
       <ReducerSample />
-    </div>
+    </SampleProvider>
   );
 }
 
