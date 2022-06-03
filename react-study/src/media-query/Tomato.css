@@ -1,0 +1,11 @@
+@media (max-width: 800px) {
+  .small-tomato {
+    background-color: tomato;
+  }
+}
+
+@media (min-width: 800px) {
+  .large-tomato {
+    background-color: tomato;
+  }
+}
