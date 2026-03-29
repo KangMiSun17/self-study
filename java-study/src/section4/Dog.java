@@ -16,6 +16,6 @@ public class Dog {
     // int furLength;
 
     public void eat() {
-        System.out.println("냠냠");
+        System.out.println(name + " 냠냠");
     }
 }
