@@ -13,7 +13,7 @@ public class ClassA {
 
     void defaultPrint(){
         System.out.println("default 메서드입니다.");
-        privatePrint()
+        privatePrint();
     }
 
     private void privatePrint(){
