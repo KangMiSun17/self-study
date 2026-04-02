@@ -9,6 +9,7 @@ public class Chapter33 {
         moveAnimal(bird);
         moveAnimal(cat);
         moveAnimal(fish);
+
     }
 
     // 추상메서드 장점
